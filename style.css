@@ -91,3 +91,32 @@ button.button-block {
   color: #333 !important;
   text-align: center !important;
 }
+
+/* Prevent horizontal scrolling */
+html, body {
+  overflow-x: hidden !important;
+  width: 100% !important;
+}
+
+/* Ensure all content stays within the viewport */
+.container-fluid, .button-block, .disclaimer, .modal-content {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+
+/* Ensure images do not cause overflow */
+.img-fluid {
+  max-width: 100% !important;
+  height: auto !important;
+  display: block !important;
+  margin: 0 auto !important;
+}
+
+/* Prevent margins from pushing content out */
+.p-5 {
+  padding: 1.5rem !important; /* Reduce padding on mobile */
+}
+
+.m-2 {
+  margin: 0.5rem !important; /* Prevent excessive margins */
+}
