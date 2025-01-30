@@ -1,10 +1,13 @@
 let messages = 
 [
-    "think of the presents!",
     "don't be silly",
+    "think of the presents!",
     "come on now",
     "pleaseeee",
-    "i promise it will be worth it!"
+    "i promise it will be worth it!",
+    "i'm taking you somewhere nice!",
+    "pleeeeeeeeeeeeeeeeeeeeeeeeease",
+    "pretty please!!!!"
 ];
 let messageIndex = 0;
 
