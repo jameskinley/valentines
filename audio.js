@@ -1,3 +1,5 @@
 $(document).ready(function() {
-    $('#music')[0].play();
+    $(".spoiler").click(function(){
+        $('#music')[0].play();
+    });
 });
